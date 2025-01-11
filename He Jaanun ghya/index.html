@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>आध्यात्मिक प्रश्न - The Truth Bible Institute</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .search-container {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #1a237e;
+            border-radius: 5px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .category h2 {
+            color: #1a237e;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #1a237e;
+            padding-bottom: 10px;
+        }
+
+        .category ul {
+            list-style: none;
+        }
+
+        .category li {
+            margin: 10px 0;
+        }
+
+        .category a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .category a:hover {
+            background-color: #e8eaf6;
+            color: #1a237e;
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .categories {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>आध्यात्मिक प्रश्न</h1>
+        <p>आपल्या प्रश्नांची उत्तरे शोधा</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="आपला प्रश्न शोधा...">
+    </div>
+
+    <div class="categories">
+        <div class="category">
+            <h2>देवाविषयी प्रश्न</h2>
+            <ul>
+                <li><a href="questions/god/who-is-god.html">देव कोण आहे?</a></li>
+                <li><a href="questions/god/why-god-created-us.html">देवाने आपल्याला का निर्माण केले?</a></li>
+                <!-- Add more questions as needed -->
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>येशूविषयी प्रश्न</h2>
+            <ul>
+                <li><a href="questions/jesus/who-is-jesus.html">येशू कोण आहे?</a></li>
+                <li><a href="questions/jesus/why-jesus-died.html">येशू का मरण पावला?</a></li>
+                <!-- Add more questions as needed -->
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>पवित्र आत्म्याविषयी प्रश्न</h2>
+            <ul>
+                <li><a href="questions/holy-spirit/who-is-holy-spirit.html">पवित्र आत्मा कोण आहे?</a></li>
+                <li><a href="questions/holy-spirit/gifts-of-spirit.html">आत्म्याची दाने काय आहेत?</a></li>
+                <!-- Add more questions as needed -->
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>बायबलविषयी प्रश्न</h2>
+            <ul>
+                <li><a href="questions/bible/what-is-bible.html">बायबल काय आहे?</a></li>
+                <li><a href="questions/bible/how-to-read-bible.html">बायबल कसे वाचावे?</a></li>
+                <!-- Add more questions as needed -->
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>धर्मशास्त्रविषयी प्रश्न</h2>
+            <ul>
+                <li><a href="questions/theology/salvation.html">तारण म्हणजे काय?</a></li>
+                <li><a href="questions/theology/faith.html">विश्वास म्हणजे काय?</a></li>
+                <!-- Add more questions as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 The Truth Bible Institute</p>
+        <p>सत्याचा शोध घेण्यासाठी आपले मार्गदर्शक</p>
+    </footer>
+</body>
+</html>
